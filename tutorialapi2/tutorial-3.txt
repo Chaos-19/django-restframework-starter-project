@@ -1,0 +1,8 @@
+lessons
+
+# writing views using Class Base View
+
+
+
+1. Rewriting our API using class-based views 
+using class-based views, rather than function based views. As we'll see this is a powerful pattern that allows us to reuse common functionality, and helps us keep our code DRY
