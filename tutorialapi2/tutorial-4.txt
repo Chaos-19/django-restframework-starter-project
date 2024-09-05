@@ -1,0 +1,13 @@
+#How auth will work
+
+1. Code snippets are always associated with a creator.
+2. Only authenticated users may create snippets.
+3. Only the creator of a snippet may update or delete it.
+4. Unauthenticated requests should have full read-only access.
+
+lessons
+. Add authentication to the api
+  - authentication add to the views to snippetList and SippetDetail
+   - in SnippetsList only authenticated use can see snippets
+   - in Snippet detail set permission oly the owner to edite and delete the snippet
+ - create cusome permission for object level permission
