@@ -10,7 +10,12 @@ from rest_framework import status
 from rest_framework import mixins
 from rest_framework import generics
 
+#Using generic class-based views
+class SnippetList(generics.ListCreateAPIView):
+    queryset = Snippet.objects.all()
+    serializer_class = SnippetSerializer
 
+'''
 #Using mixins
 class SnippetList(mixins.ListModelMixin,
                   mixins.CreateModelMixin,
@@ -23,7 +28,7 @@ class SnippetList(mixins.ListModelMixin,
 
     def post(self, request, *args, **kwargs):
         return self.create(request, *args, **kwargs)
-
+'''
 '''
 class SnippetList(APIView):
     """
@@ -41,6 +46,11 @@ class SnippetList(APIView):
             return Response(serializer.data,status=status.HTTP_201_CREATED)
         return Response(serializer.errors,status=status.HTTP_400_BAD_REQUEST)
 '''
+# Using generic class-based views
+class SnippetDetail(generics.RetrieveUpdateDestroyAPIView):
+    queryset = Snippet.objects.all()
+    serializer_class = SnippetSerializer
+'''
 #Using mixins
 class SnippetDetail(mixins.RetrieveModelMixin,
                     mixins.UpdateModelMixin,
@@ -57,6 +67,7 @@ class SnippetDetail(mixins.RetrieveModelMixin,
 
     def delete(self, request, *args, **kwargs):
         return self.destroy(request, *args, **kwargs)
+'''
 
 '''
 class SnippetDetails(APIView):
