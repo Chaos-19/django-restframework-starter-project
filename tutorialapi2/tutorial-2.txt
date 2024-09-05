@@ -1,0 +1,29 @@
+lessons
+# useing restframwork Response object
+# useing api wrapper of restframwork 
+# useing format suffixes to our URLs
+
+
+
+1 .change HttpResponse and JsonResponse response to restframwork  Response object, which is a type of TemplateResponse that takes unrendered content and uses content negotiation to determine the correct content type to return to the client.
+
+2. REST framework provides two wrappers you can use to write API views.
+
+The @api_view decorator for working with function based views.
+The APIView class for working with class-based views.
+
+These wrappers provide a few bits of functionality such as 
+making sure you receive Request instances in your view, and adding 
+context to Response objects so that content negotiation can be 
+performed.
+
+The wrappers also provide behavior such as returning 405 Method 
+Not Allowed  responses when appropriate, and handling any 
+ParseErrorexceptions that occur when accessing request.data with 
+malformed input.
+
+## in tutorial-2 we use function base rest wrapper 
+
+3 format suffixes of URLs is used to determine the response type when it spacified in url
+ex. # http://127.0.0.1:8000/snippets.json
+    # http://127.0.0.1:8000/snippets.api
