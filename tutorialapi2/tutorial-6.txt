@@ -1,0 +1,4 @@
+# ViewSets & Routers
+# Binding ViewSets to URLs explicitly
+
+** we actually don't need to design the URL conf ourselves. The conventions for wiring up resources into views and urls can be handled automatically, using a Router class.
