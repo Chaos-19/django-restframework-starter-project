@@ -1,6 +1,8 @@
 lessons
 
 # writing views using Class Base View
+# Using mixins
+# Using generic class-based views
 
 
 
