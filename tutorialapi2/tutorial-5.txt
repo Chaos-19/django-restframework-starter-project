@@ -1,0 +1,3 @@
+# Relationships & Hyperlinked APIs
+# Making sure our URL patterns are named
+# Adding pagination
