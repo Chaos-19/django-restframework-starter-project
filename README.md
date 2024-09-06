@@ -38,12 +38,12 @@ The project is structured around the official Django REST Framework tutorial, pr
 
 This project is broken into six lessons, each corresponding to a tutorial section from the [official Django REST Framework tutorial](https://www.django-rest-framework.org/tutorial/1-serialization/). Each lesson is on a separate branch, so you can check out each branch as needed:
 
-1. **[Lesson 1 - Serialization](https://www.django-rest-framework.org/tutorial/1-serialization/):** Introduction to serializers and the basics of converting models to JSON format. Branch: `tutorial-1`
-2. **[Lesson 2 - Requests and Responses](https://www.django-rest-framework.org/tutorial/2-requests-and-responses/):** Handling HTTP requests and responses in DRF. Branch: `tutorial-2`
-3. **[Lesson 3 - Class-Based Views](https://www.django-rest-framework.org/tutorial/3-class-based-views/):** Building reusable views using Django's class-based views. Branch: `tutorial-3`
-4. **[Lesson 4 - Authentication and Permissions](https://www.django-rest-framework.org/tutorial/4-authentication-and-permissions/):** Adding user authentication and permissions to the API. Branch: `tutorial-4`
-5. **[Lesson 5 - Relationships and Hyperlinked APIs](https://www.django-rest-framework.org/tutorial/5-relationships-and-hyperlinked-apis/):** Creating relationships between models and using hyperlinked APIs. Branch: `tutorial-5`
-6. **[Lesson 6 - Viewsets and Routers](https://www.django-rest-framework.org/tutorial/6-viewsets-and-routers/):** Simplifying view logic using viewsets and routers for automatic URL routing. Branch: `tutorial-6`
+1. **[Lesson 1 - Serialization](https://www.django-rest-framework.org/tutorial/1-serialization/):** Introduction to serializers and the basics of converting models to JSON format. Branch: `tutorial-2`
+2. **[Lesson 2 - Requests and Responses](https://www.django-rest-framework.org/tutorial/2-requests-and-responses/):** Handling HTTP requests and responses in DRF. Branch: `tutorial-3`
+3. **[Lesson 3 - Class-Based Views](https://www.django-rest-framework.org/tutorial/3-class-based-views/):** Building reusable views using Django's class-based views. Branch: `tutorial-4`
+4. **[Lesson 4 - Authentication and Permissions](https://www.django-rest-framework.org/tutorial/4-authentication-and-permissions/):** Adding user authentication and permissions to the API. Branch: `tutorial-5`
+5. **[Lesson 5 - Relationships and Hyperlinked APIs](https://www.django-rest-framework.org/tutorial/5-relationships-and-hyperlinked-apis/):** Creating relationships between models and using hyperlinked APIs. Branch: `tutorial-6`
+6. **[Lesson 6 - Viewsets and Routers](https://www.django-rest-framework.org/tutorial/6-viewsets-and-routers/):** Simplifying view logic using viewsets and routers for automatic URL routing. Branch: `tutorial-7`
 
 Each branch contains the implementation specific to that lesson, helping you to understand the incremental development of the project.
 
